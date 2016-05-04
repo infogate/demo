@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Ucumo Vuejs</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+</head>
+<body>
+<div class="container">
+	<div class="row">
+		<div class="jumbotron">
+		  <h1>Testing VueJS!</h1>
+		  <p>Testing Vuejs with Jefrey Way</p>
+		</div>
+		<div id="app">
+			<form action="" method="POST" role="form">
+				<<span class="error">You must enter a message</span>
+				<div class="form-group">
+					<textarea row=10 column=30 name=""></textarea>
+				</div>
+				<button type="submit" class="btn btn-primary">Submit</button>
+			</form>
+		</div>
+	</div>
+</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/1.0.21/vue.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	
+	<script>
+		new Vue({
+			el: 	'#app',
+			data: { message: 'deki'
+			}
+
+		});
+	</script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "Testing static vuejs with browsersync",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/infogate/demo.git"
+  },
+  "keywords": [
+    "vuejs"
+  ],
+  "author": "Dejan Petrovic",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/infogate/demo/issues"
+  },
+  "homepage": "https://github.com/infogate/demo#readme",
+  "devDependencies": {
+    "browser-sync": "^2.12.5",
+    "gulp": "^3.9.1"
+  }
+}
